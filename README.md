@@ -10,6 +10,7 @@ This application assumes you have these applications installed.
 
 1. In the project home directory, run this command.  
   `./gradlew bootRun`
-1. In a web browser, go to the URL:
+1. In a web browser, go to the URL:  
   `http://localhost:8080/best_podcasts`
-
+1. To get podcasts in genre 140, you can do this:  
+  `http://localhost:8080/best_podcasts?genre=140`
