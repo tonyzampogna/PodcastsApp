@@ -3,6 +3,8 @@ package com.tonyzampogna.podcast.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class Podcast {
 
@@ -40,5 +42,8 @@ public class Podcast {
     private String language;
 
     private String country;
+
+    @JsonProperty("genre_ids")
+    private List<Integer> genres;
 
 }
